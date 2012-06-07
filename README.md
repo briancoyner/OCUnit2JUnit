@@ -1,3 +1,12 @@
+Brian Coyner's Changes
+======================
+- Added support for multiple lines in an error message
+- Added support for "parameterized" tests (i.e. execute same test method with different input data)
+  - See http://briancoyner.github.com/blog/2011/09/12/ocunit-parameterized-test-case/
+- Renamed variables to match the actual intended use (viz. test_case -> test_method_name)
+- Added support to recursively create the output directory (mkdir_p)
+
+
 Introduction
 ======================
 
