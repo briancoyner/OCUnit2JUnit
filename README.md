@@ -24,13 +24,6 @@ Usage
 * If your build fails, this script will pass the error code
 * All output is also passed along, so you will still see everything in your build log
 
-
-More information
-======================
-
-Can be found in [this blog post](http://blog.jayway.com/2010/01/31/continuos-integration-for-xcode-projects/).
-
-
 Licence
 ======================
 
