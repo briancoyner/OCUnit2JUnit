@@ -62,7 +62,7 @@ class ReportParser
   def parse_input
     current_test_that_failed = nil
 
-    @piped_input.each do |piped_row|
+    @piped_input.each_line do |piped_row|
       puts piped_row
       case piped_row
 
